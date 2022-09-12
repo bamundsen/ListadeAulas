@@ -1,0 +1,8 @@
+<resources>
+      <dimen name="fab_margin">16dp</dimen>
+    <dimen name="margin">16dp</dimen>
+    <dimen name="buttonElevation">50dp</dimen>
+    <dimen name="iconDimen">36dp</dimen>
+    <dimen name="margin2">24dp</dimen>
+    <dimen name="margin3">40dp</dimen>
+</resources>

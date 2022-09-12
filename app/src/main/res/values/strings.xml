@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Lista de Aulas</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="editarAula">Editar Aula</string>
+    <string name="titulo">Título da aula</string>
+    <string name="materia">Matéria</string>
+    <string name="link">Link da aula</string>
+    <string name="salvar">Salvar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="add">Adicionar</string>
+    <string name="saveSuccess">Aula gravada com sucesso.</string>
+    <string name="updateSuccess">Aula atualizada com sucesso.</string>
+    <string name="edit">Editar</string>
+    <string name="actEdit">Editar</string>
+    <string name="actDelete">Deletar</string>
+    <string name="deleteMessage">"Deseja deletar a aula "</string>
+    <string name="linkMessage">"Deseja ir ao link da aula "</string>
+    <string name="fabAdd">Adicionar aula</string>
+    <string name="about">Sobre o app</string>
+    <string name="autorNome">Bruno de Oliveira Pereira</string>
+    <string name="autor">Autor:</string>
+    <string name="contact">Contato: bruno_blizz@hotmail.com</string>
+    <string name="aboutText">Este aplicativo foi desenvolvido como trabalho final para a disciplina Desenvolvimento para Dispositívos móveis, do curso TADS no Instituto Federal do Paraná, campus Foz do Iguaçu.</string>
+    <string name="version">Versão: 1.0</string>
+    <string name="rights">Todos os direiros reservados</string>
+</resources>
