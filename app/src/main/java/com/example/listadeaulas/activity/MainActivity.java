@@ -23,6 +23,7 @@ import com.example.listadeaulas.dialog.DeleteDialog;
 import com.example.listadeaulas.dialog.LinkDialog;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity
@@ -69,6 +70,11 @@ public class MainActivity extends AppCompatActivity
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         if (item.getItemId() == R.id.actAbout){
             Intent intent = new Intent(getApplicationContext(), AboutActivity.class);
+            startActivityForResult(intent, REQ_EDIT);
+            return true;
+        }
+        else if (item.getItemId() == R.id.actInformations){
+            Intent intent = new Intent(getApplicationContext(), InformationsActivity.class);
             startActivityForResult(intent, REQ_EDIT);
             return true;
         }
@@ -124,8 +130,10 @@ public class MainActivity extends AppCompatActivity
             DeleteDialog dialog = new DeleteDialog();
             dialog.setaClass(aClass);
             dialog.show(getSupportFragmentManager(), "deleteDialog");
+            mode.finish();
             return true;
         }
+        mode.finish();
         return false;
     }
 
@@ -156,10 +164,12 @@ public class MainActivity extends AppCompatActivity
     }
 
     public void updateItemsList(){
+        List<Class> classes = new ArrayList<>();
+
         if (!classDAO.list().isEmpty()){
-            List<Class> classes = classDAO.list();
-            adapter.setItemsList(classes);
+            classes = classDAO.list();
         }
+        adapter.setItemsList(classes);
     }
 
 }

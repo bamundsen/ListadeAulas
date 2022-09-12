@@ -50,8 +50,8 @@ public class ListAdapter extends BaseAdapter {
         Class c = classes.get(position);
         txtClass.setText(c.getTitle());
         txtMatter.setText(c.getMatter());
-        if (c.getUrl().startsWith("https://www.youtube") || c.getUrl().startsWith("http://www.youtube")
-            || c.getUrl().startsWith("https://youtube") || c.getUrl().startsWith("http://youtube")) {
+        if (c.getUrl().startsWith("https://www.youtu") || c.getUrl().startsWith("http://www.youtu")
+            || c.getUrl().startsWith("https://youtu") || c.getUrl().startsWith("http://youtu")) {
             itmIcon.setImageResource(R.drawable.ic_video);
         }
         else {
@@ -63,10 +63,6 @@ public class ListAdapter extends BaseAdapter {
 
     public void setItemsList(List<Class> classes){
         this.classes = classes;
-        if (classes.get(0) == null)
-            System.out.println("nulo");
-        else
-            System.out.println(classes.get(0));
         notifyDataSetChanged();
     }
 }

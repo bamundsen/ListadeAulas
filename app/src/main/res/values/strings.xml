@@ -29,4 +29,8 @@
     <string name="aboutText">Este aplicativo foi desenvolvido como trabalho final para a disciplina Desenvolvimento para Dispositívos móveis, do curso TADS no Instituto Federal do Paraná, campus Foz do Iguaçu.</string>
     <string name="version">Versão: 1.0</string>
     <string name="rights">Todos os direiros reservados</string>
+    <string name="howTo">Como usar este aplicativo:</string>
+    <string name="informations">Este aplicativo é uma lista para guardar links, com a temática \"Aula\". \n\nAo clicar no ícone com um símbolo de \"+\" no canto inferior direito da tela, você será direcionado a um formulário para ser preenchido. \n\nOs campos de \"Título\" e \"link\" são obrigatórios. \n\nNa página principal seus itens estarão em fortmato de lista, links do youtube aparecerão com um ícone de vídeo, os demais itens aparecerão com um ícone de navegador. \n\nClicar sobre um ícone direcionará você para seu link salvo. \n\nCom um clique longo você abrirá a opção de editar ou excluir o item clicado.</string>
+    <string name="menu">Menu de ações</string>
+    <string name="information">Informações de uso</string>
 </resources>
